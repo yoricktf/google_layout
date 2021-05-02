@@ -1,0 +1,44 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+}
+nav {
+    display: flex;
+    height: 48px;
+    padding: 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-bar-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#nav-bar-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#menu-btn {
+    display: grid;
+    align-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 16px;
+    height: 16px;
+}
+
+.btn-cell {
+    background-color: grey;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px; 
+    align-self: flex-end;
+}
